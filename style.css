@@ -13,13 +13,14 @@ h1{
     color: white;
 }
 
-#p{
+p{
 	color: white;
 }
 
-.li{
+ul{
 	color: white;
 }
+
 /*============================ SUN ============================*/
 
 #sun{
@@ -290,3 +291,46 @@ h1{
 #mercury-label{
     bottom: 189px;
 }
+
+
+#video{
+    width: 100%;
+}
+
+/* =========================== BOTTOM TABS =========================== */
+
+#tabs-bottom{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 500;
+    display: inline-block;
+    width: 100%;
+    height: 50px;
+
+    box-shadow: inset 0px 1px 0px 0px #54a3f7;
+    background: linear-gradient(#007dc1, #0061a7);
+    border-radius: 3px;
+    border-color: 1px solid #124d77;
+}
+
+#tabs-bottom a{
+    float: left;
+    display: block;
+    width: 33%;
+    height: 35px;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #154682;
+    padding-top: 18px;
+}
+
+
+
+
+
+
+
+
